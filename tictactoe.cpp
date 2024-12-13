@@ -101,8 +101,8 @@ if(!placeMarker(slot)){                                    //checking if place i
     continue;
 }
 
-Drawboard();                              //calling board after every move
-playerwon=winner();                       //checking who won after each move
+Drawboard();                              // Displaying board after every move
+playerwon=winner();                       // checking who won after each move
 
 
 if(playerwon == 1){
